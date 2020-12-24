@@ -92,7 +92,7 @@ def check_window():
     pg.alert("If the browser's window is not maximised\nMaximise and then close it if you want,\nor sendwhatmsg() function will not work","Pywhatkit")
 
 def sendwhatmsg(phone_no, message, time_hour, time_min, wait_time=20, print_waitTime=True):
-    '''Sends whatsapp message to a particulal number at given time
+    '''Sends whatsapp message to a particular number at given time
 Phone number should be in string format not int
 ***This function will not work if the browser's window is minimised,
 first check it by calling 'check_window()' function'''
